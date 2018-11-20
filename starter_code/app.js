@@ -12,8 +12,7 @@ hbs.registerPartials( __dirname + '/views/partials');
 
 
 // Remember to paste your credentials here
-var clientId = 'eff85dc8f83c48a489f0a7d80aaef13e',
-    clientSecret = '51d3cf2444aa46e09185b0a59a4dd25e';
+
 
 var spotifyApi = new SpotifyWebApi({
   clientId : clientId,
